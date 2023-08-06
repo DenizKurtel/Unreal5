@@ -1,0 +1,12 @@
+Source https://www.w3schools.com/colors/colors_picker.asp
+
+
+Gray: #808080
+DimGray: #696969
+Brown: #734d26
+Green: #33cc33
+DarkGreen: #1e7b1e
+CopperColor: #b87333
+IronColor: #808080
+StoneColor: #c9a683
+
