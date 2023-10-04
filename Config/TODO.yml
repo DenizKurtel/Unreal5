@@ -1,0 +1,47 @@
+# ToDo: 
+
+
+structure: {
+    function hud() # gives hud
+    function build() # gives build abilities
+    function status() # deals with any kind of health
+    function interaction() # deals any kind of interactions
+    function inventory() # gives inventory space
+    function skill() 
+    function craft() # gives crafting abilities
+
+    character: {
+        status, 
+        interaction, 
+        inventory,
+        skill
+    },
+
+    player: {
+        playercontroller,
+        character, 
+        hud, 
+        build,
+        craft
+    },
+
+    item: {
+        status
+    },
+
+    manufacturer: {
+        inventory,
+        craft
+    },
+
+    container: {
+        status, 
+        inventory, 
+    },
+
+    vehicle: {
+        status, 
+        inventory, 
+    },
+
+}
