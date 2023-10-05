@@ -9,39 +9,44 @@ structure: {
     function inventory() # gives inventory space
     function skill() 
     function craft() # gives crafting abilities
+    funtion playercontroller() # controlled when possesed
+
+
+    playercontroller: {
+      hud
+    }
 
     character: {
-        status, 
-        interaction, 
-        inventory,
-        skill
+      status, 
+      interaction, 
+      inventory,
+      skill
     },
 
     player: {
-        playercontroller,
-        character, 
-        hud, 
-        build,
-        craft
+      playercontroller,
+      character, 
+      build,
+      craft
     },
 
     item: {
-        status
+      status
     },
 
     manufacturer: {
-        inventory,
-        craft
+      inventory,
+      craft
     },
 
     container: {
-        status, 
-        inventory, 
+      status, 
+      inventory, 
     },
 
     vehicle: {
-        status, 
-        inventory, 
+      status, 
+      inventory, 
     },
 
 }
